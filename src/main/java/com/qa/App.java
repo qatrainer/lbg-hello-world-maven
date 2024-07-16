@@ -4,10 +4,8 @@ package com.qa;
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
+public class App {
+    public static void main(String[] args) {
         System.out.println(sayHello());
         System.out.println(sayHelloToSomeone("Peter2"));
         System.out.println(sayHelloToSomeone("Bob"));
@@ -16,15 +14,15 @@ public class App
         System.out.println(sayGoodbye());
     }
 
-    public static String sayHello(){
+    public static String sayHello() {
         return "Hello World!";
     }
 
-    public static String sayGoodbye(){
+    public static String sayGoodbye() {
         return "Hello happy  World!";
     }
 
-    public static String sayHelloToSomeone(String name){
-        return "Hello " + name ;
+    public static String sayHelloToSomeone(String name) {
+        return "Hello from " + name;
     }
 }
